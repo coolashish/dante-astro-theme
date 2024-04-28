@@ -38,13 +38,9 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
-    image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
-    },
+    title: 'Ashish Kulkarni',
+    subtitle: 'Software Developer',
+    description: 'Personal website for Ashish Kulkarni',
     headerNavLinks: [
         {
             text: 'Home',
@@ -58,10 +54,6 @@ const siteConfig: SiteConfig = {
             text: 'Blog',
             href: '/blog'
         },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
     ],
     footerNavLinks: [
         {
@@ -72,23 +64,11 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
+            text: 'Linkedin',
             href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
         },
         {
             text: 'X/Twitter',
@@ -96,12 +76,8 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
-        image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
-        },
+        title: "Journey of a Software Developer",
+        text: "Welcome to my personal website! I'm Ashish Kulkarni, a seasoned software developer currently serving as a Lead Tech at D. E. Shaw India with over 7 years of dedicated experience in the realm of software engineering. I hold a degree in Computer Science from the esteemed College Of Engineering Pune (COEP) Tech University. Beyond my professional endeavors, I nurture a passion for reading non-fiction and indulging in strategic games like chess and cricket. Here, you'll find insights into my work, interests, and the journey that has shaped my career in technology.",
         actions: [
             {
                 text: 'Get in Touch',
@@ -109,13 +85,8 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
-    postsPerPage: 8,
-    projectsPerPage: 8
+    postsPerPage: 0,
+    projectsPerPage: 0
 };
 
 export default siteConfig;
